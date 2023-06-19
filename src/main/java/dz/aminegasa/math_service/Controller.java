@@ -32,7 +32,7 @@ public class Controller {
     @GetMapping("/")
     public String  feature(){
         return "get all formulas which equal a specific target" +
-                " using (addition, subtraction and multiplication)\n" +
+                " using (addition, subtraction and multiplication) .\n" +
                 "problem definition https://leetcode.com/problems/expression-add-operators";
     }
 
